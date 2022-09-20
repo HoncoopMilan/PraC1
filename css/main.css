@@ -1,0 +1,103 @@
+*{
+	margin:0;
+	padding: 0;
+
+}
+
+.containerHeader{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin-top: 20px;
+	padding-bottom: 10px;
+	border-bottom: 3px solid black;
+}
+header img{
+	max-width: 100px;
+}
+header a{
+	font-size: 15px;
+	color: lightblue;
+	text-decoration: none;
+	border:2px solid black;
+	border-radius: 7px;
+	padding: 10px;
+}
+header a:hover{
+	border:2px solid purple;
+	background-color: purple;
+	color: white;
+}
+main{
+	padding:20px;
+	background-image: url(../img/Curio-logo-.png);
+	
+	background-position: center;
+	background-size: cover;
+}
+h1{
+	color: #61E8E1;
+	font-size: 20px;	
+}
+h2{
+	color: #61E8E1;
+	font-size: 18px;
+}
+.style{
+	background: rgba(0,0,0,0.5);
+	padding:30px;
+	text-align: left;
+	color: #FFFFFF;
+	border-radius: 2rem;
+	margin-top:20px;
+}
+
+.vakken p{
+	padding: 2px;
+}
+.bijzonder, .standaard{
+	max-width: 1000px;
+}
+
+.rooster img{
+	margin:7px;
+	width: 750px;
+}
+.blokken{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	margin-top: 20px;
+}
+.info{
+	grid-column-start: 1;
+}
+.blokken img{
+	padding-left: 175px;
+}
+.docenten-img{
+	display: flex;
+	justify-content: space-around;
+}
+.docenten img{
+	width: 150px;
+}
+.docenten-tekst{
+	display: flex;
+	justify-content: space-around;
+}
+footer{
+	padding: 25px; 
+	background-color: #161a1d;
+	color:#FFFFFF;
+	text-align: right`;
+}
+footer a{
+	padding: 5px;
+	display: inline-flex;
+	align-items: center;
+	justify-content: space-around;
+	text-decoration: none;
+	color:white;
+	border-left: 1px solid white;
+
+}
