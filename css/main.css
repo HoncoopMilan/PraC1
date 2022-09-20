@@ -35,6 +35,20 @@ main{
 	background-position: center;
 	background-size: cover;
 }
+.stylejs{
+	background: rgba(0,0,0,0.5);
+	padding:30px;
+	text-align: left;
+	color: #FFFFFF;
+	border-radius: 2rem;
+	margin-top:20px;
+	display: flex;
+	justify-content: center;
+}
+#image1{
+	width: 500px;
+	height: 250px;
+}
 h1{
 	color: #61E8E1;
 	font-size: 20px;	

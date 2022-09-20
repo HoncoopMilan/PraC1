@@ -12,6 +12,29 @@
 		?>
 	</header>
 	<main>
+		<div class="stylejs">
+			<div>
+        		<img id="image1" />
+    		</div>
+
+    		<script>
+        		var imgArray = [
+            		'img/curiogebouw.jpg',
+		            'img/curioo-gebouw.jpg',
+		            'img/curio-gebouw.jpg'
+		        ];
+		        var curIndex = 0;
+		        var imgDuration = 5000;
+
+		        function slideShow() {
+		            document.getElementById('image1').src = imgArray[curIndex];
+		            curIndex++;
+		            if (curIndex == imgArray.length) { curIndex = 0; }
+		            setTimeout("slideShow()", imgDuration);
+		        }
+		        slideShow();
+		    </script>
+		</div>
 		<div class="style">
 			<div id="vakken" class="vakken">
 				<h1>VAKKEN</h1>
